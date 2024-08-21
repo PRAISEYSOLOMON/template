@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaa4f5;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #9a38a9;
+    color: white;
+}
+.logo h1 {
+    font-size: 24px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #dd4be8;
+    border-radius: 5px;
+}
+.cafe{
+    background-color: #eaa4f5;
+}
+.cafe img {
+    float: right; 
+    width: 500px; 
+}
+.cafe h1{
+    padding-top: 150px;
+    padding-left: 150px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cafe p{
+    font-size: 70px;
+    padding-left: 150px;
+    padding-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu{
+    padding-left: 150px;
+    size: 400px;
+}
+.container {
+    padding-left: 150px;
+    padding-top: 40px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.dropdown {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+}
+.explore-button {
+    padding: 10px 20px;
+    background-color: #9a38a9; 
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.row{
+    padding-top: 250PX;
+    padding-right: 150px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.col{
+    display: inline-block;
+    width: 30%;
+    margin: 1.5%;
+    background-color: #9a38a9;
+    padding: 15px;
+    vertical-align: top;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.col img {
+    width: 100%;
+    height: 250px;
+    border-radius: 4px;
+}
+h3 {
+    margin: 15px 0;
+    font-size: 18px;
+    color: white;
+}
+.col p{
+    color: #eaa4f5;
+}
+.read-more {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #eaa4f5;
+    color: #421349;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.contact-us {
+    color: #421349;
+    padding: 50px 20px;
+    text-align: center;
+    padding-right: 150px;
+}
+
+.contact-us h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-us p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #5c2760;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    align-items: center;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #4b1e4e;
+}
